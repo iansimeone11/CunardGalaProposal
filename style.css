@@ -281,11 +281,11 @@ a{color:inherit;}
 .price-total{font-family:var(--serif); font-size:clamp(2.2rem,4vw,3.2rem); color:var(--orange); margin:0;}
 .price-total small{font-family:var(--sans); font-size:1rem; color:var(--muted-light); font-weight:500; display:block; margin-top:.5rem;}
 .price-table{width:100%; border-collapse:collapse; margin-top:1rem;}
-.price-table th{text-align:left; font-size:.72rem; letter-spacing:.06em; text-transform:uppercase; color:var(--muted-dark); padding:.7rem .9rem; border-bottom:2px solid var(--ink);}
-.price-table td{padding:.9rem .9rem; font-size:.92rem; border-bottom:1px solid rgba(0,0,0,.08); color:var(--ink);}
-.price-table tr:last-child td{font-weight:700; border-bottom:none;}
-.price-table .amt{text-align:right; font-family:var(--serif); color:var(--orange-dim); font-weight:700;}
-.price-note{font-size:.82rem; color:var(--muted-dark); margin-top:1rem; font-style:italic;}
+.price-table th{text-align:left; font-size:.72rem; letter-spacing:.06em; text-transform:uppercase; color:var(--muted-light); padding:.7rem .9rem; border-bottom:2px solid rgba(244,236,223,.3);}
+.price-table td{padding:.9rem .9rem; font-size:.92rem; border-bottom:1px solid rgba(244,236,223,.12); color:var(--cream);}
+.price-table tr:last-child td{font-weight:700; border-bottom:none; color:var(--white);}
+.price-table .amt{text-align:right; font-family:var(--serif); color:var(--orange); font-weight:700;}
+.price-note{font-size:.82rem; color:var(--muted-light); margin-top:1rem; font-style:italic;}
 
 /* Video block */
 .videos{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1.4rem;}
